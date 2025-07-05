@@ -29,10 +29,21 @@ button:hover {
   background-color: rgb(0, 0, 0);
 }
 
-img {
+.shinji-image {
   position: fixed;
   bottom: 0;
   right: 0;
+  max-width: 100vw;
+  max-height: 100vh;
+  width: auto;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .shinji-image {
+    max-width: 200vw;
+    max-height: 30vh;
+  }
 }
 
 a {
