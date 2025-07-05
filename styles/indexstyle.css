@@ -1,0 +1,40 @@
+@import url("https://fonts.cdnfonts.com/css/vcr-osd-mono");
+
+body {
+  font-family: "VCR OSD Mono", monospace;
+  background-color: rgb(224, 224, 224);
+  color: rgb(12, 12, 12);
+  padding: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  height: 90vh;
+}
+
+#moreborder {
+  border: 1px solid rgb(0, 0, 0);
+  height: 90vh;
+}
+
+#okaycontent {
+  padding: 20px;
+}
+
+button {
+  color: white;
+  border: 1px solid rgb(0, 0, 0);
+  font-family: monospace;
+  font-size: x-large;
+}
+
+button:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+img {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+a {
+  text-decoration: none;
+}

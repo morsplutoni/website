@@ -1,0 +1,25 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.main {
+  width: 40em;
+  align-self: center;
+}
+
+.main > .top {
+  text-align: center;
+}
+
+nav {
+  font-weight: bold;
+  list-style-type: none;
+  display: flex;
+}
+
+nav > li {
+  padding: 10px;
+}
